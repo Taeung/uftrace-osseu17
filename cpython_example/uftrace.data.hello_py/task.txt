@@ -1,0 +1,2 @@
+SESS timestamp=429949.651667135 pid=14945 sid=ed0fbea5fb9d0711 exename="/home/taeung/git/opensource/cpython/python"
+TASK timestamp=429949.651719919 tid=14945 pid=14945

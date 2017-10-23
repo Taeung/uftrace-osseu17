@@ -1,0 +1,2 @@
+SESS timestamp=6955.352135364 pid=5866 sid=404721d7b76c4f79 exename="/home/taeung/workspace/perf-test/knapsack_O2"
+TASK timestamp=6955.352224098 tid=5866 pid=5866

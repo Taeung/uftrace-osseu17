@@ -1,0 +1,2 @@
+SESS timestamp=8062862.819490116 pid=3148 sid=c507d2861ba8f091 exename="/home/honggyu/work/uftrace/git/uftrace/a.out"
+TASK timestamp=8062862.820037227 tid=3148 pid=3148

@@ -1,0 +1,62 @@
+00400000-00673000 r-xp 00000000 08:01 12531978                           /home/taeung/git/opensource/cpython/python
+00872000-008d6000 rw-p 00272000 08:01 12531978                           /home/taeung/git/opensource/cpython/python
+008d6000-00907000 rw-p 00000000 00:00 0 
+0095b000-0098d000 rw-p 00000000 00:00 0                                  [heap]
+7f7ec93cc000-7f7ec93e2000 r-xp 00000000 08:01 9961556                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f7ec93e2000-7f7ec95e1000 ---p 00016000 08:01 9961556                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f7ec95e1000-7f7ec95e2000 r--p 00015000 08:01 9961556                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f7ec95e2000-7f7ec95e3000 rw-p 00016000 08:01 9961556                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f7ec95e3000-7f7ec95fc000 r-xp 00000000 08:01 9965865                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f7ec95fc000-7f7ec97fb000 ---p 00019000 08:01 9965865                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f7ec97fb000-7f7ec97fc000 r--p 00018000 08:01 9965865                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f7ec97fc000-7f7ec97fd000 rw-p 00019000 08:01 9965865                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f7ec97fd000-7f7ec9977000 r-xp 00000000 08:01 6161082                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24
+7f7ec9977000-7f7ec9b76000 ---p 0017a000 08:01 6161082                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24
+7f7ec9b76000-7f7ec9b80000 r--p 00179000 08:01 6161082                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24
+7f7ec9b80000-7f7ec9b82000 rw-p 00183000 08:01 6161082                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24
+7f7ec9b82000-7f7ec9b85000 rw-p 00000000 00:00 0 
+7f7ec9b85000-7f7ec9b8c000 r-xp 00000000 08:01 9968274                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f7ec9b8c000-7f7ec9d8b000 ---p 00007000 08:01 9968274                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f7ec9d8b000-7f7ec9d8c000 r--p 00006000 08:01 9968274                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f7ec9d8c000-7f7ec9d8d000 rw-p 00007000 08:01 9968274                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f7ec9d8d000-7f7ec9da4000 r-xp 00000000 08:01 6166085                    /usr/lib/x86_64-linux-gnu/libelf-0.165.so
+7f7ec9da4000-7f7ec9fa3000 ---p 00017000 08:01 6166085                    /usr/lib/x86_64-linux-gnu/libelf-0.165.so
+7f7ec9fa3000-7f7ec9fa4000 r--p 00016000 08:01 6166085                    /usr/lib/x86_64-linux-gnu/libelf-0.165.so
+7f7ec9fa4000-7f7ec9fa5000 rw-p 00017000 08:01 6166085                    /usr/lib/x86_64-linux-gnu/libelf-0.165.so
+7f7ec9fa5000-7f7eca165000 r-xp 00000000 08:01 9968307                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f7eca165000-7f7eca365000 ---p 001c0000 08:01 9968307                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f7eca365000-7f7eca369000 r--p 001c0000 08:01 9968307                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f7eca369000-7f7eca36b000 rw-p 001c4000 08:01 9968307                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f7eca36b000-7f7eca36f000 rw-p 00000000 00:00 0 
+7f7eca36f000-7f7eca477000 r-xp 00000000 08:01 9968297                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f7eca477000-7f7eca676000 ---p 00108000 08:01 9968297                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f7eca676000-7f7eca677000 r--p 00107000 08:01 9968297                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f7eca677000-7f7eca678000 rw-p 00108000 08:01 9968297                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f7eca678000-7f7eca67a000 r-xp 00000000 08:01 9968286                    /lib/x86_64-linux-gnu/libutil-2.23.so
+7f7eca67a000-7f7eca879000 ---p 00002000 08:01 9968286                    /lib/x86_64-linux-gnu/libutil-2.23.so
+7f7eca879000-7f7eca87a000 r--p 00001000 08:01 9968286                    /lib/x86_64-linux-gnu/libutil-2.23.so
+7f7eca87a000-7f7eca87b000 rw-p 00002000 08:01 9968286                    /lib/x86_64-linux-gnu/libutil-2.23.so
+7f7eca87b000-7f7eca87e000 r-xp 00000000 08:01 9968279                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f7eca87e000-7f7ecaa7d000 ---p 00003000 08:01 9968279                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f7ecaa7d000-7f7ecaa7e000 r--p 00002000 08:01 9968279                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f7ecaa7e000-7f7ecaa7f000 rw-p 00003000 08:01 9968279                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f7ecaa7f000-7f7ecaa97000 r-xp 00000000 08:01 9968266                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f7ecaa97000-7f7ecac96000 ---p 00018000 08:01 9968266                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f7ecac96000-7f7ecac97000 r--p 00017000 08:01 9968266                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f7ecac97000-7f7ecac98000 rw-p 00018000 08:01 9968266                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f7ecac98000-7f7ecac9c000 rw-p 00000000 00:00 0 
+7f7ecac9c000-7f7ecacbd000 r-xp 00000000 08:01 6554036                    /usr/local/lib/libmcount-fast.so
+7f7ecacbd000-7f7ecaebc000 ---p 00021000 08:01 6554036                    /usr/local/lib/libmcount-fast.so
+7f7ecaebc000-7f7ecaebe000 rw-p 00020000 08:01 6554036                    /usr/local/lib/libmcount-fast.so
+7f7ecaebe000-7f7ecaebf000 rw-p 00000000 00:00 0 
+7f7ecaebf000-7f7ecaee5000 r-xp 00000000 08:01 9968080                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f7ecb0a7000-7f7ecb0b1000 rw-p 00000000 00:00 0 
+7f7ecb0e2000-7f7ecb0e4000 rw-p 00000000 00:00 0 
+7f7ecb0e4000-7f7ecb0e5000 r--p 00025000 08:01 9968080                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f7ecb0e5000-7f7ecb0e6000 rw-p 00026000 08:01 9968080                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f7ecb0e6000-7f7ecb0e7000 rw-p 00000000 00:00 0 
+7ffc7c171000-7ffc7c191000 rwxp 00000000 00:00 0                          [stack]
+7ffc7c191000-7ffc7c192000 rw-p 00000000 00:00 0 
+7ffc7c1aa000-7ffc7c1ad000 r--p 00000000 00:00 0                          [vvar]
+7ffc7c1ad000-7ffc7c1af000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

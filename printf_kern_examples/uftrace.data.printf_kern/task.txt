@@ -1,0 +1,2 @@
+SESS timestamp=4533522.357402420 pid=31071 sid=93b61a35fe4c9057 exename="/home/honggyu/uftrace-demo/song/nmap/build.pg/bin/a.out"
+TASK timestamp=4533522.357856138 tid=31071 pid=31071

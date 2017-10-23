@@ -1,0 +1,56 @@
+00400000-00401000 r-xp 00000000 08:01 4239818                            /home/taeung/uftrace-osseu17/process_life_cycle_example/hello
+00600000-00601000 rw-p 00000000 08:01 4239818                            /home/taeung/uftrace-osseu17/process_life_cycle_example/hello
+00ef4000-00f26000 rw-p 00000000 00:00 0                                  [heap]
+7f8481e3c000-7f8481e52000 r-xp 00000000 08:01 9961556                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f8481e52000-7f8482051000 ---p 00016000 08:01 9961556                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f8482051000-7f8482052000 r--p 00015000 08:01 9961556                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f8482052000-7f8482053000 rw-p 00016000 08:01 9961556                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f8482053000-7f848215b000 r-xp 00000000 08:01 9968297                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f848215b000-7f848235a000 ---p 00108000 08:01 9968297                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f848235a000-7f848235b000 r--p 00107000 08:01 9968297                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f848235b000-7f848235c000 rw-p 00108000 08:01 9968297                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f848235c000-7f8482375000 r-xp 00000000 08:01 9965865                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f8482375000-7f8482574000 ---p 00019000 08:01 9965865                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f8482574000-7f8482575000 r--p 00018000 08:01 9965865                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f8482575000-7f8482576000 rw-p 00019000 08:01 9965865                    /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f8482576000-7f848258e000 r-xp 00000000 08:01 9968266                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f848258e000-7f848278d000 ---p 00018000 08:01 9968266                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f848278d000-7f848278e000 r--p 00017000 08:01 9968266                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f848278e000-7f848278f000 rw-p 00018000 08:01 9968266                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f848278f000-7f8482793000 rw-p 00000000 00:00 0 
+7f8482793000-7f848290d000 r-xp 00000000 08:01 6161082                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24
+7f848290d000-7f8482b0c000 ---p 0017a000 08:01 6161082                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24
+7f8482b0c000-7f8482b16000 r--p 00179000 08:01 6161082                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24
+7f8482b16000-7f8482b18000 rw-p 00183000 08:01 6161082                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24
+7f8482b18000-7f8482b1b000 rw-p 00000000 00:00 0 
+7f8482b1b000-7f8482b1e000 r-xp 00000000 08:01 9968279                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f8482b1e000-7f8482d1d000 ---p 00003000 08:01 9968279                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f8482d1d000-7f8482d1e000 r--p 00002000 08:01 9968279                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f8482d1e000-7f8482d1f000 rw-p 00003000 08:01 9968279                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f8482d1f000-7f8482d26000 r-xp 00000000 08:01 9968274                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f8482d26000-7f8482f25000 ---p 00007000 08:01 9968274                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f8482f25000-7f8482f26000 r--p 00006000 08:01 9968274                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f8482f26000-7f8482f27000 rw-p 00007000 08:01 9968274                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f8482f27000-7f8482f3e000 r-xp 00000000 08:01 6166085                    /usr/lib/x86_64-linux-gnu/libelf-0.165.so
+7f8482f3e000-7f848313d000 ---p 00017000 08:01 6166085                    /usr/lib/x86_64-linux-gnu/libelf-0.165.so
+7f848313d000-7f848313e000 r--p 00016000 08:01 6166085                    /usr/lib/x86_64-linux-gnu/libelf-0.165.so
+7f848313e000-7f848313f000 rw-p 00017000 08:01 6166085                    /usr/lib/x86_64-linux-gnu/libelf-0.165.so
+7f848313f000-7f84832ff000 r-xp 00000000 08:01 9968307                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f84832ff000-7f84834ff000 ---p 001c0000 08:01 9968307                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f84834ff000-7f8483503000 r--p 001c0000 08:01 9968307                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f8483503000-7f8483505000 rw-p 001c4000 08:01 9968307                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f8483505000-7f8483509000 rw-p 00000000 00:00 0 
+7f8483509000-7f848352a000 r-xp 00000000 08:01 6554036                    /usr/local/lib/libmcount-fast.so
+7f848352a000-7f8483729000 ---p 00021000 08:01 6554036                    /usr/local/lib/libmcount-fast.so
+7f8483729000-7f848372b000 rw-p 00020000 08:01 6554036                    /usr/local/lib/libmcount-fast.so
+7f848372b000-7f848372c000 rw-p 00000000 00:00 0 
+7f848372c000-7f8483752000 r-xp 00000000 08:01 9968080                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f8483915000-7f848391e000 rw-p 00000000 00:00 0 
+7f848394f000-7f8483951000 rw-p 00000000 00:00 0 
+7f8483951000-7f8483952000 r--p 00025000 08:01 9968080                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f8483952000-7f8483953000 rw-p 00026000 08:01 9968080                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f8483953000-7f8483954000 rw-p 00000000 00:00 0 
+7fff0123b000-7fff0125c000 rwxp 00000000 00:00 0                          [stack]
+7fff013f0000-7fff013f2000 r--p 00000000 00:00 0                          [vvar]
+7fff013f2000-7fff013f4000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

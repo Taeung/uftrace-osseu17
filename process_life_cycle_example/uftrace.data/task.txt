@@ -1,0 +1,2 @@
+SESS timestamp=181866.243088260 pid=1037 sid=8df64967aa603bed exename="/home/taeung/uftrace-osseu17/process_life_cycle_example/hello"
+TASK timestamp=181866.243453351 tid=1037 pid=1037

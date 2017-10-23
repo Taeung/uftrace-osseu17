@@ -1,0 +1,37 @@
+PAGE_SIZE: 4096
+LONG_SIZE: 8
+ENDIAN: LE
+TRACEFS: events/header_page: 205
+	field: u64 timestamp;	offset:0;	size:8;	signed:0;
+	field: local_t commit;	offset:8;	size:8;	signed:1;
+	field: int overwrite;	offset:8;	size:1;	signed:1;
+	field: char data;	offset:16;	size:4080;	signed:1;
+TRACEFS: events/ftrace/funcgraph_entry/format: 438
+name: funcgraph_entry
+ID: 11
+format:
+	field:unsigned short common_type;	offset:0;	size:2;	signed:0;
+	field:unsigned char common_flags;	offset:2;	size:1;	signed:0;
+	field:unsigned char common_preempt_count;	offset:3;	size:1;	signed:0;
+	field:int common_pid;	offset:4;	size:4;	signed:1;
+
+	field:unsigned long func;	offset:8;	size:8;	signed:0;
+	field:int depth;	offset:16;	size:4;	signed:1;
+
+print fmt: "--> %lx (%d)", REC->func, REC->depth
+TRACEFS: events/ftrace/funcgraph_exit/format: 700
+name: funcgraph_exit
+ID: 10
+format:
+	field:unsigned short common_type;	offset:0;	size:2;	signed:0;
+	field:unsigned char common_flags;	offset:2;	size:1;	signed:0;
+	field:unsigned char common_preempt_count;	offset:3;	size:1;	signed:0;
+	field:int common_pid;	offset:4;	size:4;	signed:1;
+
+	field:unsigned long func;	offset:8;	size:8;	signed:0;
+	field:unsigned long long calltime;	offset:16;	size:8;	signed:0;
+	field:unsigned long long rettime;	offset:24;	size:8;	signed:0;
+	field:unsigned long overrun;	offset:32;	size:8;	signed:0;
+	field:int depth;	offset:40;	size:4;	signed:1;
+
+print fmt: "<-- %lx (%d) (start: %llx  end: %llx) over: %d", REC->func, REC->depth, REC->calltime, REC->rettime, REC->depth

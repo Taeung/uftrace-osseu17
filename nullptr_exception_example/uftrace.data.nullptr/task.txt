@@ -1,0 +1,2 @@
+SESS timestamp=70549.350922142 pid=30869 sid=c0b98c87ba756c42 exename="/home/taeung/workspace/osseu17_uftrace_examples/nullptr_exception_example/benchmark_STL_containers_nullptr"
+TASK timestamp=70549.350980328 tid=30869 pid=30869
